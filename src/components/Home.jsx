@@ -21,7 +21,7 @@ const Home = () => {
     <Input />
     </Flex>
     
-    <Grid templateColumns='repeat(8, 1fr)'  w={[300, 400, 500]} gap={2} margin="20px">
+    <Grid templateColumns='repeat(8, 1fr)'   gap={2} margin="20px">
       {
         data && data.map(({
           id,
